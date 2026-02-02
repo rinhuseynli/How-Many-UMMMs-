@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: "Eagle Lake", serif;
+    background-image:
+        linear-gradient(
+            rgba(253, 237, 237, 0.4),
+            rgba(253, 237, 237, 0.4)
+        ),
+        url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto; 
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 50px;
+    border: none;
+    -webkit-mask-image: radial-gradient(circle,black 70%, transparent 100%);
+    mask-image: radial-gradient(circle,black 70%, transparent 100%);
+}
+
+h1, h2 {
+    color: #F875AA;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+#count-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+    color: #F875AA;
+    gap: 10px;
+}
+
+ #number {
+    margin-top: 3px;
+    font-size: 48px;
+    font-weight: bold;
+} 
