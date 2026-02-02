@@ -71,6 +71,6 @@ h1, h2 {
   }
 
   body {
-    background-image: url(phone.jpg);
+    background-image: url("phone.jpg");
   }
 }
