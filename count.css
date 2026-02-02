@@ -70,7 +70,11 @@ h1, h2 {
     font-size: 40px;
   }
 
+  
   body {
     background-image: url("phone.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
